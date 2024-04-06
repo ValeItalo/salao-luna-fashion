@@ -1,11 +1,11 @@
-<nav class="navbar navbar-expand-lg bg-dark border-bottom" data-bs-theme="dark">
-<!-- <nav class="navbar navbar-expand-lg border-bottom" style="background: #FCF4FF;"> -->
+<nav class="navbar navbar-expand-lg fixed-top bg-dark" data-bs-theme="dark">
+  <!-- <nav class="navbar navbar-expand-lg fixed-top border-bottom" style="background: #FCF4FF;"> -->
   <div class="container-fluid">
-    <a class="navbar-brand" routerLink="/home">
+    <a class="navbar-brand" routerLink="/home" id="home">
       <img src="../../../assets/img/logo-luna-fashion.png" class="logo-img">
       <strong>Luna
         Fashion</strong>
-      </a>
+    </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
       aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -22,11 +22,11 @@
             Serviços
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" (click)="scrollToDiv('minhaDiv')">Cabeleireira</a></li>
-            <li><a class="dropdown-item" (click)="scrollToDiv('minhaDiv')">Manicure</a></li>
-            <li><a class="dropdown-item" (click)="scrollToDiv('minhaDiv')">Micropigmentação</a></li>
-            <li><a class="dropdown-item" (click)="scrollToDiv('minhaDiv')">Pedicure</a></li>
-            <li><a class="dropdown-item" (click)="scrollToDiv('minhaDiv')">Sobrancelhas</a></li>
+            <li><a class="dropdown-item" (click)="scrollToDiv('cabeleireira')">Cabeleireira</a></li>
+            <li><a class="dropdown-item" (click)="scrollToDiv('manicure')">Manicure</a></li>
+            <li><a class="dropdown-item" (click)="scrollToDiv('micropigmentacao')">Micropigmentação</a></li>
+            <li><a class="dropdown-item" (click)="scrollToDiv('pedicure')">Pedicure</a></li>
+            <li><a class="dropdown-item" (click)="scrollToDiv('sobrancelha')">Sobrancelhas</a></li>
           </ul>
         </li>
         <li class="nav-item">

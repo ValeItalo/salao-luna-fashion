@@ -1,5 +1,5 @@
-<div class="py-2" style="background-color: #954CA6;">
-  <div class="d-flex justify-content-center align-items-center" style="color: antiquewhite;">
+<div class="purple-section" id="cabeleireira">
+  <div class="d-flex justify-content-center align-items-center">
     <hr style="width: 30%; display: inline-block;">
     <h2 style="padding: 1em; font-weight: 500;">CABELEIREIRA</h2>
     <hr style="width: 30%; display: inline-block;">
@@ -9,17 +9,16 @@
     A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
     bred for hunting.
   </p>
-  <div class="d-flex flex-wrap-reverse gap-2 justify-content-center">
-    @for (imageLink of hairStyleImagesArray; track imageLink) {
-    <app-card [hairStyleImageLink]=imageLink>
+  <div class="d-flex flex-wrap-reverse gap-2 align-items-center justify-content-center">
+    @for (imageLink of hairStyleSrcImagesArray; track imageLink) {
+    <app-card [srcImageLink]=imageLink>
     </app-card>
     }
   </div>
 </div>
 
-<div style="background-color: antiquewhite;">
-
-  <div class="d-flex justify-content-center align-items-center" style="color: #954CA6;">
+<div class="light-yellow-section" id="manicure">
+  <div class="d-flex justify-content-center align-items-center">
     <hr style="width: 30%; display: inline-block;">
     <h2 style="padding: 1em; font-weight: 500;">MANICURE</h2>
     <hr style="width: 30%; display: inline-block;">
@@ -30,15 +29,33 @@
     bred for hunting.
   </p>
   <div class="d-flex flex-wrap-reverse gap-2 justify-content-center">
-    @for (imageLink of hairStyleImagesArray; track imageLink) {
-    <app-card [hairStyleImageLink]=imageLink>
+    @for (imageLink of manicureSrcImagesArray; track imageLink) {
+    <app-card [srcImageLink]=imageLink>
     </app-card>
     }
   </div>
 </div>
 
+<div class="purple-section" id="micropigmentacao">
+  <div class="d-flex justify-content-center align-items-center">
+    <hr style="width: 30%; display: inline-block;">
+    <h2 style="padding: 1em; font-weight: 500;">MICROPIGMENTAÇÃO</h2>
+    <hr style="width: 30%; display: inline-block;">
+  </div>
+  <p class="container">
+    The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+    A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+    bred for hunting.
+  </p>
+  <div class="d-flex flex-wrap-reverse gap-2 justify-content-center">
+    @for (imageLink of micropigmentationSrcImagesArray; track imageLink) {
+    <app-card [srcImageLink]=imageLink>
+    </app-card>
+    }
+  </div>
+</div>
 
-<div style="background-color: #954CA6;" id="minhaDiv">
+<div class="light-yellow-section" id="pedicure">
 
   <div class="d-flex justify-content-center align-items-center">
     <hr style="width: 30%; display: inline-block;">
@@ -51,38 +68,18 @@
     bred for hunting.
   </p>
   <div class="d-flex flex-wrap-reverse gap-2 justify-content-center">
-    @for (imageLink of hairStyleImagesArray; track imageLink) {
-    <app-card [hairStyleImageLink]=imageLink>
+    @for (imageLink of pedicureSrcImagesArray; track imageLink) {
+    <app-card [srcImageLink]=imageLink>
     </app-card>
     }
   </div>
 </div>
 
 <!-- <div style="background-color: #2A2927;"> -->
-<div style="background-color: #2A2927;">
-  <div class="d-flex justify-content-center align-items-center" style="color: white;">
-    <hr style="width: 30%; display: inline-block;">
-    <h2 style="padding: 1em; font-weight: 500;">SOBRANCELHA</h2>
-    <hr style="width: 30%; display: inline-block;">
-  </div>
-  <p class="container" style="color: white;">
-    The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
-    A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
-    bred for hunting.
-  </p>
-  <div class="d-flex flex-wrap-reverse gap-2 justify-content-center">
-    @for (imageLink of hairStyleImagesArray; track imageLink) {
-    <app-card [hairStyleImageLink]=imageLink style="color: white;">
-    </app-card>
-    }
-  </div>
-</div>
-
-<div style="background-color: antiquewhite;">
-
+<div class="purple-section" id="sobrancelha">
   <div class="d-flex justify-content-center align-items-center">
     <hr style="width: 30%; display: inline-block;">
-    <h2 style="padding: 1em; font-weight: 500;">MICROPIGMENTAÇÃO</h2>
+    <h2 style="padding: 1em; font-weight: 500;">SOBRANCELHA</h2>
     <hr style="width: 30%; display: inline-block;">
   </div>
   <p class="container">
@@ -91,8 +88,8 @@
     bred for hunting.
   </p>
   <div class="d-flex flex-wrap-reverse gap-2 justify-content-center">
-    @for (imageLink of hairStyleImagesArray; track imageLink) {
-    <app-card [hairStyleImageLink]=imageLink>
+    @for (imageLink of eyebrowSrcImagesArray; track imageLink) {
+    <app-card [srcImageLink]=imageLink>
     </app-card>
     }
   </div>

@@ -4,6 +4,8 @@
 :root {
   --light-pink:#fa6bbc;
   --dark-pink: #ff387e;
+  --dark-purple: #954CA6;
+  --light-yellow: #faebd7;
   --light-blue: #c2f3ff;
   --dark-blue: #202b47;
   --offset: #d2d2d2;
@@ -16,3 +18,7 @@
 
 /* Importing Bootstrap SCSS file. */
 @import 'bootstrap/scss/bootstrap';
+
+// body {
+//   padding-top: 60px;
+// }

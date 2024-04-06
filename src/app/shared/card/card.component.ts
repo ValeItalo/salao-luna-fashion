@@ -12,6 +12,6 @@ import {MatCardModule} from '@angular/material/card';
 })
 export class CardComponent {
 
-  @Input() hairStyleImageLink!: string;
+  @Input() srcImageLink!: string;
 
 }
