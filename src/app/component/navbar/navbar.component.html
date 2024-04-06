@@ -1,8 +1,11 @@
-<!-- <nav class="navbar navbar-expand-lg bg-body-tertiary"> -->
 <nav class="navbar navbar-expand-lg bg-dark border-bottom" data-bs-theme="dark">
+<!-- <nav class="navbar navbar-expand-lg border-bottom" style="background: #FCF4FF;"> -->
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img src="../../../assets/img/logo-luna-fashion.png" class="logo-img"><strong>Luna
-        Fashion</strong></a>
+    <a class="navbar-brand" routerLink="/home">
+      <img src="../../../assets/img/logo-luna-fashion.png" class="logo-img">
+      <strong>Luna
+        Fashion</strong>
+      </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
       aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -11,34 +14,28 @@
   <div class="px-3">
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/home">Inicio</a>
+        </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Serviços
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Cabeleireira</a></li>
-            <li><a class="dropdown-item" href="#">Manicure</a></li>
-            <li><a class="dropdown-item" href="#">Micropigmentação</a></li>
-            <li><a class="dropdown-item" href="#">Pedicure</a></li>
-            <li><a class="dropdown-item" href="#">Sobrancelhas</a></li>
+            <li><a class="dropdown-item" (click)="scrollToDiv('minhaDiv')">Cabeleireira</a></li>
+            <li><a class="dropdown-item" (click)="scrollToDiv('minhaDiv')">Manicure</a></li>
+            <li><a class="dropdown-item" (click)="scrollToDiv('minhaDiv')">Micropigmentação</a></li>
+            <li><a class="dropdown-item" (click)="scrollToDiv('minhaDiv')">Pedicure</a></li>
+            <li><a class="dropdown-item" (click)="scrollToDiv('minhaDiv')">Sobrancelhas</a></li>
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Agenda</a>
+          <a class="nav-link" routerLink="/agenda">Agenda</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contato</a>
+          <a class="nav-link" routerLink="/contato">Contato</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
-
-<!-- <header>
-  <div>
-    <img>
-  </div>
-  <div>
-    <h1>Salão de Beleza <strong>Luna Fashion</strong></h1>
-  </div>
-</header> -->
