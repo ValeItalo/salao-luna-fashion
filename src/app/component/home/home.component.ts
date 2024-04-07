@@ -21,5 +21,4 @@ import { NavbarComponent } from '../navbar/navbar.component';
   styleUrl: './home.component.scss'
 })
 export class HomeComponent {
-
 }
