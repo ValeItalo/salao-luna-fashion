@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,300&display=swap');
+@import 'bootstrap/scss/bootstrap';
 
 :root {
   --light-pink:#fa6bbc;
@@ -16,9 +17,5 @@
     src: url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,300&display=swap');
 }
 
-/* Importing Bootstrap SCSS file. */
-@import 'bootstrap/scss/bootstrap';
-
-// body {
-//   padding-top: 60px;
-// }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
