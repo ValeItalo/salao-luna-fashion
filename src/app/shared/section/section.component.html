@@ -5,10 +5,29 @@
     <hr style="width: 30%; display: inline-block;">
   </div>
   <p class="container" style="color: antiquewhite;">
-    The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
-    A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
-    bred for hunting.
+    Cortar o cabelo regularmente é fundamental para mantê-lo mais saudável e forte. Além disso, um novo corte pode ser a
+    mudança que você precisa para renovar o visual!
   </p>
+  <div class="d-flex justify-content-center gap-3 mb-4">
+    <div class="d-flex text-uppercase">
+      <mat-icon class="material-icons-outlined">check_box</mat-icon>
+      Corte de Cabelo Personalizado
+    </div>
+    <div class="d-flex text-uppercase">
+      <mat-icon class="material-icons-outlined">check_box</mat-icon>
+      Coloração e Mechas
+    </div>
+    <div class="d-flex text-uppercase">
+      <mat-icon class="material-icons-outlined">check_box</mat-icon>
+      Tratamentos Capilares
+    </div>
+    <div class="d-flex text-uppercase">
+      <mat-icon class="material-icons-outlined">check_box</mat-icon>
+      Penteados e Tranças
+    </div>
+  </div>
+
+
   <div class="d-flex flex-wrap-reverse gap-2 align-items-center justify-content-center">
     @for (imageLink of hairStyleSrcImagesArray; track imageLink) {
     <app-card [srcImageLink]=imageLink>
@@ -17,16 +36,15 @@
   </div>
 </div>
 
+
 <div class="light-yellow-section" id="manicure">
   <div class="d-flex justify-content-center align-items-center">
     <hr style="width: 30%; display: inline-block;">
-    <h2 style="padding: 1em; font-weight: 500;">MANICURE</h2>
+    <h2 style="padding: 1em; font-weight: 500;">MANICURE E PEDICURE</h2>
     <hr style="width: 30%; display: inline-block;">
   </div>
-  <p class="container" style="color: #954CA6;">
-    The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
-    A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
-    bred for hunting.
+  <p class="container text-center" style="color: #954CA6;">
+    Profissionais preparadas para atender nossos clientes de acordo com seu gosto e preferência.
   </p>
   <div class="d-flex flex-wrap-reverse gap-2 justify-content-center">
     @for (imageLink of manicureSrcImagesArray; track imageLink) {
@@ -35,6 +53,7 @@
     }
   </div>
 </div>
+
 
 <div class="purple-section" id="micropigmentacao">
   <div class="d-flex justify-content-center align-items-center">
@@ -55,28 +74,7 @@
   </div>
 </div>
 
-<div class="light-yellow-section" id="pedicure">
-
-  <div class="d-flex justify-content-center align-items-center">
-    <hr style="width: 30%; display: inline-block;">
-    <h2 style="padding: 1em; font-weight: 500;">PEDICURE</h2>
-    <hr style="width: 30%; display: inline-block;">
-  </div>
-  <p class="container">
-    The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
-    A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
-    bred for hunting.
-  </p>
-  <div class="d-flex flex-wrap-reverse gap-2 justify-content-center">
-    @for (imageLink of pedicureSrcImagesArray; track imageLink) {
-    <app-card [srcImageLink]=imageLink>
-    </app-card>
-    }
-  </div>
-</div>
-
-<!-- <div style="background-color: #2A2927;"> -->
-<div class="purple-section" id="sobrancelha">
+<div class="light-yellow-section" id="sobrancelha">
   <div class="d-flex justify-content-center align-items-center">
     <hr style="width: 30%; display: inline-block;">
     <h2 style="padding: 1em; font-weight: 500;">SOBRANCELHA</h2>
@@ -93,4 +91,8 @@
     </app-card>
     }
   </div>
+</div>
+
+<div class="box">
+  <img src="../assets/img/whatsapp-logo.png">
 </div>
