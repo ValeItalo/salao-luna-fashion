@@ -1,97 +1,216 @@
 <div class="purple-section" id="cabeleireira">
   <div class="d-flex justify-content-center align-items-center">
-    <hr style="width: 30%; display: inline-block;">
-    <h2 style="padding: 1em; font-weight: 500;">CABELEIREIRA</h2>
-    <hr style="width: 30%; display: inline-block;">
-  </div>
-  <p class="container" style="color: antiquewhite;">
-    Cortar o cabelo regularmente é fundamental para mantê-lo mais saudável e forte. Além disso, um novo corte pode ser a
-    mudança que você precisa para renovar o visual!
-  </p>
-  <div class="d-flex justify-content-center gap-3 mb-4">
-    <div class="d-flex text-uppercase">
-      <mat-icon class="material-icons-outlined">check_box</mat-icon>
-      Corte de Cabelo Personalizado
+    <hr style="width: 15%; display: inline-block;">
+    <div class="d-flex align-items-center justify-content-center mx-2 gap-2">
+      <mat-icon class="material-icons-outlined">grade</mat-icon>
+      <h2 style="padding: 1em 0; font-weight: 500; font-size: 2.5em; position: relative; bottom: -7px">
+        CABELEIREIRA
+      </h2>
+      <mat-icon class="material-icons-outlined">grade</mat-icon>
     </div>
-    <div class="d-flex text-uppercase">
+    <hr style="width: 15%; display: inline-block;">
+  </div>
+  <p class="text-center px-2 pb-4" style="color: var(--light-yellow)">
+    Cuide do seu cabelo e realce a sua beleza
+  </p>
+  <div class="d-flex justify-content-center flex-wrap gap-3 mb-4">
+    <div class="checkbox-badge badge">
       <mat-icon class="material-icons-outlined">check_box</mat-icon>
       Coloração e Mechas
     </div>
-    <div class="d-flex text-uppercase">
+    <div class="checkbox-badge badge">
+      <mat-icon class="material-icons-outlined">check_box</mat-icon>
+      Escova
+    </div>
+    <div class="checkbox-badge badge">
       <mat-icon class="material-icons-outlined">check_box</mat-icon>
       Tratamentos Capilares
     </div>
-    <div class="d-flex text-uppercase">
+    <div class="checkbox-badge badge">
       <mat-icon class="material-icons-outlined">check_box</mat-icon>
       Penteados e Tranças
     </div>
+    <div class="checkbox-badge badge">
+      <mat-icon class="material-icons-outlined">check_box</mat-icon>
+      Corte Personalizado
+    </div>
   </div>
-
-
-  <div class="d-flex flex-wrap-reverse gap-2 align-items-center justify-content-center">
+  <div class="d-none d-sm-flex flex-wrap gap-2 align-items-center justify-content-center">
     @for (imageLink of hairStyleSrcImagesArray; track imageLink) {
-    <app-card [srcImageLink]=imageLink>
+    <app-card [srcImageLink]=imageLink borderColor="border-light-yellow">
     </app-card>
     }
   </div>
+  <div id="carouselExampleAutoplaying" class="carousel slide d-xs-block d-sm-none" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active text-center">
+        <img src="../../../assets/img/arquivo-luna/cabelo-1.png" class="w-50 border-light-yellow" alt="...">
+      </div>
+      <div class="carousel-item text-center">
+        <img src="../../../assets/img/arquivo-luna/cabelo-5.png" class="w-50 border-light-yellow" alt="...">
+      </div>
+      <div class="carousel-item text-center">
+        <img src="../../../assets/img/arquivo-luna/cabelo-2-b.png" class="w-50 border-light-yellow" alt="...">
+      </div>
+      <div class="carousel-item text-center">
+        <img src="../../../assets/img/arquivo-luna/cabelo-6.png" class="w-50 border-light-yellow" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 </div>
-
 
 <div class="light-yellow-section" id="manicure">
   <div class="d-flex justify-content-center align-items-center">
-    <hr style="width: 30%; display: inline-block;">
-    <h2 style="padding: 1em; font-weight: 500;">MANICURE E PEDICURE</h2>
-    <hr style="width: 30%; display: inline-block;">
+    <hr style="width: 15%; display: inline-block;">
+    <div class="d-flex align-items-center justify-content-center mx-1 gap-2">
+      <mat-icon class="material-icons-outlined pe-2">grade</mat-icon>
+      <h2 class="text-center" style="padding: 1em 0; font-weight: 500; font-size: 2.4em; position: relative; bottom: -7px">
+        PEDICURE & MANICURE
+      </h2>
+      <mat-icon class="material-icons-outlined pe-2">grade</mat-icon>
+    </div>
+    <hr style="width: 15%; display: inline-block;">
   </div>
-  <p class="container text-center" style="color: #954CA6;">
+  <p class="text-center px-2 pb-4" style="color: var(--dark-purple)">
     Profissionais preparadas para atender nossos clientes de acordo com seu gosto e preferência.
+    Fique com suas unhas lindas para todas as ocasiões!
   </p>
-  <div class="d-flex flex-wrap-reverse gap-2 justify-content-center">
+  <div class="d-flex justify-content-center flex-wrap gap-3 mb-4">
+    <div class="checkbox-badge badge">
+      <mat-icon class="material-icons-outlined">check_box</mat-icon>
+      Corte
+    </div>
+    <div class="checkbox-badge badge">
+      <mat-icon class="material-icons-outlined">check_box</mat-icon>
+      Desenhos
+    </div>
+    <div class="checkbox-badge badge">
+      <mat-icon class="material-icons-outlined">check_box</mat-icon>
+      Adesivos
+    </div>
+    <div class="checkbox-badge badge">
+      <mat-icon class="material-icons-outlined">check_box</mat-icon>
+      Esmaltação
+    </div>
+    <div class="checkbox-badge badge">
+      <mat-icon class="material-icons-outlined">check_box</mat-icon>
+      Remoção de cutículas
+    </div>
+  </div>
+  <div class="d-none d-sm-flex flex-wrap gap-2 align-items-center justify-content-center">
     @for (imageLink of manicureSrcImagesArray; track imageLink) {
-    <app-card [srcImageLink]=imageLink>
+    <app-card [srcImageLink]=imageLink borderColor="border-white">
     </app-card>
     }
   </div>
+  <div id="carouselExampleAutoplaying2" class="carousel slide d-xs-block d-sm-none" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active text-center">
+        <img src="../../../assets/img/arquivo-luna/manicure-1.png" class="w-50 border-dark-purple" alt="...">
+      </div>
+      <div class="carousel-item text-center">
+        <img src="../../../assets/img/arquivo-luna/manicure-2.png" class="w-50 border-dark-purple" alt="...">
+      </div>
+      <div class="carousel-item text-center">
+        <img src="../../../assets/img/arquivo-luna/manicure-3.png" class="w-50 border-dark-purple" alt="...">
+      </div>
+      <div class="carousel-item text-center">
+        <img src="../../../assets/img/arquivo-luna/manicure-4.png" class="w-50 border-dark-purple" alt="...">
+      </div>
+      <div class="carousel-item text-center">
+        <img src="../../../assets/img/arquivo-luna/manicure-5.png" class="w-50 border-dark-purple" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying2"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon prev-icon-purple" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying2"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon next-icon-purple" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 </div>
 
-
-<div class="purple-section" id="micropigmentacao">
+<div class="purple-section" id="sobrancelha">
   <div class="d-flex justify-content-center align-items-center">
-    <hr style="width: 30%; display: inline-block;">
-    <h2 style="padding: 1em; font-weight: 500;">MICROPIGMENTAÇÃO</h2>
-    <hr style="width: 30%; display: inline-block;">
+    <hr style="width: 13%; display: inline-block;">
+    <div class="d-flex align-items-center justify-content-center mx-1 gap-2">
+      <mat-icon class="material-icons-outlined pe-3">grade</mat-icon>
+      <h2 class="text-center" style="padding: 1em 0; font-weight: 500; font-size: 2.3em; position: relative; bottom: -7px">
+        SOBRANCELHA & MICROPIGMENTAÇÃO
+      </h2>
+      <mat-icon class="material-icons-outlined pe-3">grade</mat-icon>
+    </div>
+    <hr style="width: 13%; display: inline-block;">
   </div>
-  <p class="container">
-    The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
-    A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
-    bred for hunting.
+  <p class="text-center px-2 pb-4" style="color: var(--light-yellow)">
+    Equipe prepara para te ajudar a transformar seu olhar
   </p>
-  <div class="d-flex flex-wrap-reverse gap-2 justify-content-center">
+  <div class="d-flex justify-content-center flex-wrap gap-3 mb-4">
+    <div class="checkbox-badge badge">
+      <mat-icon class="material-icons-outlined">check_box</mat-icon>
+      Cílios
+    </div>
+    <div class="checkbox-badge badge">
+      <mat-icon class="material-icons-outlined">check_box</mat-icon>
+      Design de Sobrancelhas
+    </div>
+    <div class="checkbox-badge badge">
+      <mat-icon class="material-icons-outlined">check_box</mat-icon>
+      Henna
+    </div>
+    <div class="checkbox-badge badge">
+      <mat-icon class="material-icons-outlined">check_box</mat-icon>
+      Micropigmentação
+    </div>
+  </div>
+  <div class="d-none d-sm-flex flex-wrap gap-2 align-items-center justify-content-center">
     @for (imageLink of micropigmentationSrcImagesArray; track imageLink) {
-    <app-card [srcImageLink]=imageLink>
+    <app-card [srcImageLink]=imageLink borderColor="border-light-yellow">
     </app-card>
     }
+  </div>
+  <div id="carouselExampleAutoplaying3" class="carousel slide d-xs-block d-sm-none" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active text-center">
+        <img src="../../../assets/img/arquivo-luna/micropigmentacao-1.png" class="w-50 border-light-yellow" alt="...">
+      </div>
+      <div class="carousel-item text-center">
+        <img src="../../../assets/img/arquivo-luna/micropigmentacao-2.png" class="w-50 border-light-yellow" alt="...">
+      </div>
+      <div class="carousel-item text-center">
+        <img src="../../../assets/img/arquivo-luna/micropigmentacao-3.png" class="w-50 border-light-yellow" alt="...">
+      </div>
+      <div class="carousel-item text-center">
+        <img src="../../../assets/img/arquivo-luna/cabelo-6.png" class="w-50 border-light-yellow" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying3"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying3"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
 </div>
 
-<div class="light-yellow-section" id="sobrancelha">
-  <div class="d-flex justify-content-center align-items-center">
-    <hr style="width: 30%; display: inline-block;">
-    <h2 style="padding: 1em; font-weight: 500;">SOBRANCELHA</h2>
-    <hr style="width: 30%; display: inline-block;">
-  </div>
-  <p class="container">
-    The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
-    A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
-    bred for hunting.
-  </p>
-  <div class="d-flex flex-wrap-reverse gap-2 justify-content-center">
-    @for (imageLink of eyebrowSrcImagesArray; track imageLink) {
-    <app-card [srcImageLink]=imageLink>
-    </app-card>
-    }
-  </div>
-</div>
 
 <div class="box">
   <img src="../assets/img/whatsapp-logo.png">

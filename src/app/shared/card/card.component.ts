@@ -13,5 +13,5 @@ import {MatCardModule} from '@angular/material/card';
 export class CardComponent {
 
   @Input() srcImageLink!: string;
-
+  @Input() borderColor!: string;
 }
