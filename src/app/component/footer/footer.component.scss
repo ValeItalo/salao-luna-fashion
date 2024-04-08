@@ -3,3 +3,13 @@
   color: var(--offset);
   border-top: 7px solid var(--dark-pink);
 }
+
+.attribution {
+  color: white;
+  font-size: .55rem;
+  a {
+    color: white;
+    text-decoration: none;
+    cursor: none;
+  }
+}
