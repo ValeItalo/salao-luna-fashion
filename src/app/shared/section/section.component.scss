@@ -55,3 +55,45 @@
 .next-icon-purple {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23954CA6' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
+
+@media only screen and (max-width: 576px) and (min-width: 300px)  {
+  h2 {
+    font-size: 1.25rem;
+  }
+  p {
+    font-size: 1em;
+  }
+  .checkbox-badge {
+    span {
+    font-size: 1em;
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 577px)  {
+  h2 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1.2em;
+  }
+  .checkbox-badge {
+    span {
+    font-size: 1.2em;
+    }
+  }
+}
+
+@media screen and (min-width: 993px){
+  h2 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1.5em;
+  }
+  .checkbox-badge {
+    span {
+    font-size: 1.5em;
+    }
+  }
+}
