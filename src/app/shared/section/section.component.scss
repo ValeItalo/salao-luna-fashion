@@ -10,14 +10,23 @@
   color: var(--dark-purple);
 }
 
-.checkbox-badge {
+.checkbox-badge-purple,
+.checkbox-badge-white {
   display: flex;
   gap: 0.5em;
   align-items: center;
   text-transform: uppercase;
   text-wrap: wrap;
+}
+
+.checkbox-badge-white {
   color: var(--dark-purple);
   background-color: var(--light-yellow);
+}
+
+.checkbox-badge-purple {
+  color: var(--light-yellow);
+  background-color: var(--dark-purple);
 }
 
 .box {
