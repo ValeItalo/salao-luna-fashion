@@ -1,3 +1,4 @@
+import { appConfig } from './../../app.config';
 import { Component, Input } from '@angular/core';
 import { MatIconModule } from '@angular/material/icon';
 
@@ -13,6 +14,13 @@ import { CardComponent } from "../card/card.component";
     imports: [MatListModule, MatDividerModule, MatIconModule, CardComponent]
 })
 export class SectionComponent {
+
+  playAudio() {
+    let audio = new Audio();
+    audio.src = '../../../assets/audio/som-whats.mp3';
+    audio.load();
+    audio.play();
+  }
 
 hairStyleSrcImagesArray: string[] = [
 "../../../assets/img/arquivo-luna/cabelo-1.png",
