@@ -17,6 +17,7 @@
   align-items: center;
   text-transform: uppercase;
   text-wrap: wrap;
+  transition: background-color 0.5s ease;
 }
 
 .checkbox-badge-white {
@@ -63,6 +64,12 @@
 
 .next-icon-purple {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23954CA6' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.checkbox-badge:hover,
+.checkbox-badge:focus {
+  color: #fff;
+  background-color: #b20180;
 }
 
 @media only screen and (max-width: 576px) and (min-width: 300px)  {
