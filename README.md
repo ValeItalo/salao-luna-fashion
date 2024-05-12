@@ -1,18 +1,25 @@
 # Salão de Beleza Luna Fashion
 
-Trabalho desenvolvido na disciplina de Projeto Integrador para o curso de Computação da Universidade Virtual do Estado de São Paulo (UNIVESP). Consiste no desenvolvimento de um software para divulgação do salão de beleza Luna Fashion. O objetivo é expandir a presença online do salão, atrair e gerenciar a carteira de clientes, otimizar o processo de agendamento e direcionar os clientes para a rede social Instagram e o aplicativo de mensagem WhatsApp.
+Este trabalho foi desenvolvido como parte da disciplina de **Projeto Integrador** do curso de **Computação da Universidade Virtual do Estado de São Paulo (UNIVESP)**. Consiste no desenvolvimento de um software para divulgação do salão de beleza Luna Fashion. O objetivo é expandir a presença online do salão, atrair e gerenciar a carteira de clientes, otimizar o processo de agendamento e direcionar os clientes para a rede social Instagram e o aplicativo de mensagem WhatsApp.
 
-**_Este repositório possui os arquivos referente ao front-end_**
+A escolha do tema veio da oportunidade de aplicar os conhecimentos adquiridos na graduação para ajudar um negócio local a prosperar, além de aprofundar os estudos nas tecnologias de front-end, back-end e banco de dados.
 
-<img src="./src/assets/img/luna-fashion-front-end-2.png" alt="Banner Luna Fashion criado na ferramenta Canva" width=40%/>
-<img src="./src/assets/img/luna-fashion-front-end-3.png" alt="Banner Luna Fashion criado na ferramenta Canva" width=40%/>
+**_Este repositório contém os arquivos referentes ao front-end do Salão Luna Fashion._**
+
+<div style="display: flex;" align="center">  
+  <a href="https://lunafashion.netlify.app/home">
+<img src="./src/assets/img/luna-fashion-front-end-2.png" alt="Banner Luna Fashion criado na ferramenta Canva" width=60%/>
+  </a>
+</div>
+
+<br>
 
 ## Versão Online
 
 Acesse a versão online do Salão Luna Fashion no Netlify: [Luna Fashion](https://lunafashion.netlify.app/home)
 
 ## Tecnologias Utilizadas
-
+  	
 - **Front-end**: Angular 17 com Bootstrap 5.3.3
 - **Back-end**: Java 17 com Spring Boot 3
 - **Banco de Dados**: MySQL
