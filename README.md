@@ -2,19 +2,14 @@
 
 Trabalho desenvolvido na disciplina de Projeto Integrador para o curso de Computação da Universidade Virtual do Estado de São Paulo (UNIVESP). Consiste no desenvolvimento de um software para divulgação do salão de beleza Luna Fashion. O objetivo é expandir a presença online do salão, atrair e gerenciar a carteira de clientes, otimizar o processo de agendamento e direcionar os clientes para a rede social Instagram e o aplicativo de mensagem WhatsApp.
 
-**_Este repositório possui os arquivos referente ao front-end._**
+**_Este repositório possui os arquivos referente ao front-end_**
 
-<img src="./src/assets/img/banner-luna-fashion-5.jpg" alt="Banner Luna Fashion criado na ferramenta Canva" width="200" />
-
-_Banner Luna Fashion criado na ferramenta Canva_
-
-<img src="./src/assets/img/luna-fashion-front-end-1.png" alt="Banner Luna Fashion criado na ferramenta Canva" />
-
-_Visão geral do front-end_
+<img src="./src/assets/img/luna-fashion-front-end-2.png" alt="Banner Luna Fashion criado na ferramenta Canva" width=40%/>
+<img src="./src/assets/img/luna-fashion-front-end-3.png" alt="Banner Luna Fashion criado na ferramenta Canva" width=40%/>
 
 ## Versão Online
 
-Acesse a versão online do Salão Luna Fashion no Netlify: [Luna Fashion](https://lunafashion.netlify.app/home).
+Acesse a versão online do Salão Luna Fashion no Netlify: [Luna Fashion](https://lunafashion.netlify.app/home)
 
 ## Tecnologias Utilizadas
 
