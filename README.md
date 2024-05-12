@@ -1,27 +1,57 @@
-# SalaoLunaFashion
+# Salão de Beleza Luna Fashion
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.8.
+Trabalho desenvolvido na disciplina de Projeto Integrador para o curso de Computação da Universidade Virtual do Estado de São Paulo (UNIVESP). Consiste no desenvolvimento de um software para divulgação do salão de beleza Luna Fashion. O objetivo é expandir a presença online do salão, atrair e gerenciar a carteira de clientes, otimizar o processo de agendamento e direcionar os clientes para a rede social Instagram e o aplicativo de mensagem WhatsApp.
 
-## Development server
+**_Este repositório possui os arquivos referente ao front-end._**
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<img src="./src/assets/img/banner-luna-fashion-5.jpg" alt="Banner Luna Fashion criado na ferramenta Canva" width="200" />
 
-## Code scaffolding
+_Banner Luna Fashion criado na ferramenta Canva_
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<img src="./src/assets/img/luna-fashion-front-end-1.png" alt="Banner Luna Fashion criado na ferramenta Canva" />
 
-## Build
+_Visão geral do front-end_
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Versão Online
 
-## Running unit tests
+Acesse a versão online do Salão Luna Fashion no Netlify: [Luna Fashion](https://lunafashion.netlify.app/home).
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Tecnologias Utilizadas
 
-## Running end-to-end tests
+- **Front-end**: Angular 17 com Bootstrap 5.3.3
+- **Back-end**: Java 17 com Spring Boot 3
+- **Banco de Dados**: MySQL
+- **Controle de Versão**: GitHub
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Criação
 
-## Further help
+- Mobile first
+- Componentes reutilizáveis
+- Design responsivo
+- HTML semântico
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Funcionalidades
+
+1. **Portfólio do Salão**: O site exibe informações sobre os serviços oferecidos pelo salão, incluindo imagens do acervo pessoal da proprietária e imagens ilustrativas retiradas do site https://www.freepik.com
+2. **Redes Sociais**: Links para o Instagram e WhatsApp do salão para facilitar a comunicação com os clientes.
+3. **Agendamento Online** _(em construção)_: Os clientes podem verificar a disponibilidade de horários e agendar serviços diretamente pelo site.
+
+## Como Contribuir
+
+Caso queira realizar contribuições para o projeto:
+
+1. Faça um fork deste repositório.
+2. Clone o fork para sua máquina.
+3. Crie uma branch para suas alterações: `git checkout -b minha-feature`.
+4. Realize as alterações desejadas e faça commit: `git commit -m "Minha alteração"`.
+5. Envie as alterações para o seu fork: `git push origin minha-feature`.
+6. Abra um pull request neste repositório.
+
+## Instalação e Execução
+
+1. Certifique-se de ter o Angular 17 e o Node.js v20.10.0.
+2. Clone este repositório: `git clone https://github.com/ValeItalo/salao-luna-fashion.git`.
+3. Abra o projeto na IDE de sua preferência
+4. No terminal da IDE, execute o comando `npm install`
+5. Execute o front-end (Angular): `ng serve`.
+6. Acesse a aplicação em `http://localhost:4200`.
