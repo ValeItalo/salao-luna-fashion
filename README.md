@@ -4,6 +4,8 @@ Este trabalho foi desenvolvido como parte da disciplina de **Projeto Integrador*
 
 A escolha do tema veio da oportunidade de aplicar os conhecimentos adquiridos na graduação para ajudar um negócio local a prosperar, além de aprofundar os estudos nas tecnologias de front-end, back-end e banco de dados.
 
+Vídeo de apresentação no Youtube: [Luna Fashion YouTube](https://www.youtube.com/watch?v=TYOhunIFcww)
+
 **_Este repositório contém os arquivos referentes ao front-end do Salão Luna Fashion._**
 
 <div style="display: flex;" align="center">  
